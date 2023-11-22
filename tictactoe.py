@@ -4,10 +4,10 @@ Tic Tac Toe Game
 import copy
 import time
 
+
 X = "X"
 O = "O"
 EMPTY = None
-
 
 
 def initial_state():
@@ -119,7 +119,6 @@ def all_slots_taken(board):
             if board[i][j] == EMPTY:
                 return False
     return True
-
 
 
 def utility(board):
